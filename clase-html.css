@@ -1,0 +1,213 @@
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    padding-bottom: 5%;
+    background: rgb(170, 170, 170);
+    background: linear-gradient(180deg, rgb(170, 170, 170) 0%, rgba(244,244,244,1) 300px);
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2 {
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+.first-text {
+    margin-left: 3%;
+}
+article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 200px;
+    width: 300px;
+    margin-bottom: -40px;
+    margin-top: -10px;
+}
+
+p {
+    line-height: 24px;
+    font-size: 20px;
+}
+
+.caption {
+    float: right;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    margin-top: 8px;
+}
+figcaption {
+    font-size: 12px;
+    color: grey;  
+}
+
+.exseriesset {
+    height: 300px;
+}
+
+h3 {
+    padding-left: 10px;
+}
+
+.date {
+    color: rgb(189, 189, 189);
+    padding-left: 10px;
+}
+
+.expantion {
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 20px -5px;
+    
+}
+
+.symbol {
+    float: right;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+#rands:hover {
+    background-color: #9b111fd7;
+    color: whitesmoke;
+    transition: 1s;
+}
+
+#sandstorm:hover {
+    background-color: #0f53bad7;
+    color: whitesmoke;
+    transition: 1s;
+}
+
+#dragon:hover {
+    background-color: #46ad68df;
+    color: whitesmoke;
+    transition: 1s;
+}
+
+.logo:hover {
+    height: 210px;
+    transition: 1s;
+    margin-bottom: -50px;
+}
+
+#card {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 800px;
+    max-width: 980px;
+    border: solid 5px rgb(220, 220, 220);
+    border-radius: 50px;
+    color: rgb(60, 60, 60);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sharpedo {
+    background: radial-gradient(circle at 15%, rgba(15,83,186,0.60) 0%, rgba(244,244,244,1) 40%);
+}
+
+.sharp {
+    height: 342px;
+    max-width: 245px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+}
+
+.sharpt {
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+    width: auto;
+    text-align: auto;
+}
+.delcatty {
+    background: radial-gradient(circle at 15%, rgba(170, 170, 170, 0.8) 0%, rgba(244,244,244,1) 60%); 
+}
+.cards {
+    flex-wrap: wrap;
+}
+.mightyena {
+    background: radial-gradient(circle, rgba(77, 77, 77, 0.6) 0%, rgba(244,244,244,1) 40%); 
+}
+
+.mewtwo {
+    background: radial-gradient(circle at 15%, rgba(168, 37, 219, 0.6) 0%, rgba(244,244,244,1) 40%); 
+}
+.sceptile {
+    background: radial-gradient(circle at 15%, rgba(42, 213, 19, 0.6) 0%, rgba(244,244,244,1) 40%); 
+}
+.charizard {
+background: radial-gradient(circle at 15%, #ff1e35bc,rgb(244, 244, 244) 40%);
+}
+.ampharos {
+    background: radial-gradient(circle at 15%, rgba(251, 255, 20, 0.697) 0%, rgba(244,244,244,1) 40%); 
+}
+.armaldo {
+    background: radial-gradient(circle at 15%, rgba(201, 116, 36, 0.697) 0%, rgba(244,244,244,1) 40%); 
+}
+.rayquaza {
+    background: radial-gradient(circle at 15%, #ff1e3582 12%, rgba(251, 255, 20, 0.4), rgba(244,244,244,1) 40%); 
+}
+.arrow i {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .arrow:hover i {
+    transform: translateY(-5px);
+  }
+  footer {
+    margin-top: 60px;
+  }
+
+  #head {
+    height: 120px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  ul {
+    display: flex;
+  }
+  li{
+    margin-right: 30px;
+  }
+  .video-container {
+    width: 640px;
+    height: 360px;
+    margin: 0 auto;
+    position: relative;
+     margin-bottom: 100px;
+     margin-top: 50px;
+  }
+
+  .video-container iframe, 
+  .video-container object,
+  .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 640px;
+    height: 395px;
+  }
+  .red {
+    font-size: 100px;
+  }
